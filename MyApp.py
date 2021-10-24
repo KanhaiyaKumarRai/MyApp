@@ -19,3 +19,14 @@ data=np.arange(0,1000).reshape((200,5))
 df=pd.DataFrame(data,columns=["A","B","C","D","E"])
 
 st.line_chart(df)
+
+a=df['A'].values
+b=df['B'].values
+
+st.write("Sum of A is")
+a = st.slider('a')  # 👈 this is a widget
+st.write(a, 'squared is', a * a)
+
+b = st.button('a')  # 👈 this is a widget
+st.write(b, 'sum is', b + b)
+
