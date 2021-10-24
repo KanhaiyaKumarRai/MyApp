@@ -27,6 +27,6 @@ st.write("Sum of A is")
 a = st.slider('a')  # 👈 this is a widget
 st.write(a, 'squared is', a * a)
 
-b = st.button('a')  # 👈 this is a widget
+b = st.button('b')  # 👈 this is a widget
 st.write(b, 'sum is', b + b)
 
